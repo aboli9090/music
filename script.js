@@ -1,4 +1,4 @@
-//!ALL PROJECTS ARRAYS
+// //!ALL PROJECTS ARRAYS
 const allSingerInfo = [];
 const basketArrays = new Set([]);
 const favoriteArrays = new Set([]);
@@ -232,6 +232,14 @@ const addSingerInfo = (
 const getSingerInfo = () => {
   //!Tataloo Info
   const AmirTataloo = [
+        {
+      id: 20,
+      name: "Behesht",
+      price: 90,
+      cover: "public/Music/Tatallo/tataloo - Behesht.jpg",
+      time: "10:12",
+      source: "public/Music/Tatallo/4_5920269288303759432.mp3",
+    },
     {
       id: 1,
       name: "Bi Manam Misheh",
@@ -239,6 +247,14 @@ const getSingerInfo = () => {
       cover: "public/Music/Tatallo/BiManamMishe.webp",
       time: "8:08",
       source: "public/Music/Tatallo/BiManamMishe.mp3",
+    },
+       {
+      id: 21,
+      name: "Taziyane",
+      price: 45,
+      cover: "public/Music/Tatallo/download.jpg",
+      time: "7:23",
+      source: "public/Music/Tatallo/Taziyane.mp3",
     },
     {
       id: 2,
